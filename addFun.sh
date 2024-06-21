@@ -1,8 +1,9 @@
 #!/bin/bash
-a=10
-b=20
+echo "Enter two numbers"
+read a
+read b
 addFun(){
     c=$(($a+$b))
-    echo "$c"
+    echo "Sum of $a + $b = $c"
 }
 addFun
