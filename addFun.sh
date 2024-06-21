@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Enter two numbers"
+echo "Enter two numbers a and b"
 read a
 read b
 addFun(){
